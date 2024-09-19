@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website showcasing Digital Marketing and Cloud DevOps experience.">
+    <title>UWADONE JOSHUA - Digital Marketer & Cloud DevOps Engineer</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #374785;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #61dafb;
+        }
+
+        .intro {
+            margin-top: 50px;
+        }
+
+        .cta {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #ff7f50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta:hover {
+            background-color: #ff5733;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #374785;
+        }
+
+        /* About Me Section with Profile Image */
+        #about {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 60px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #about .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .skill, .certifications {
+            width: 30%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .skill ul, .certifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill a, .certifications a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .skill a:hover, .certifications a:hover {
+            color: #ff7f50;
+        }
+
+        /* Portfolio Section */
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .project {
+            width: 45%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Contact Form */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 12px;
+            background-color: #61dafb;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #21a1f1;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #374785;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #ff7f50;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills & Certifications</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h1>Building Cloud Solutions & Crafting Digital Content</h1>
+            <p>From Digital Marketing to DevOps: UWADONE JOSHUA</p>
+            <a href="#portfolio" class="cta">Explore My Work</a>
+        </div>
+    </header>
+
+    <!-- About Me Section with Profile Picture -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img class="profile-pic" src="https://uwadone-portfolio-website07.s3.amazonaws.com/Screenshot_20201027-131844.png" alt="Uwadone Joshua Profile Picture">
+        <p>With over 3 years of experience in Digital Marketing and transitioning into Cloud DevOps Engineering, I have a passion for both creative content and building scalable cloud infrastructure.</p>
+        <p>Certified in AWS Cloud Practitioner and Solutions Architect Associate, I combine creativity with technical expertise to deliver results.</p>
+    </section>
+
+    <!-- Skills & Certifications Section -->
+    <section id="skills">
+        <h2>Skills & Certifications</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Marketing Skills</h3>
+                <ul>
+                    <a href="https://app.hubspot.com/academy/achievements/9dg75y0f/en/1/joshua-uwadone/content-marketing" target="_blank"><li>Content Creation</li></a>
+                    <a href="https://app.hubspot.com/academy/achievements/hj229lww/en/1/joshua-uwadone/email-marketing" target="_blank"><li>Email Marketing</li></a>                                     
+                    <a href="https://app.hubspot.com/academy/achievements/2lgxy76z/en/1/joshua-uwadone/seo" target="_blank"><li>SEO Optimization</li></a>                   
+                    <a href="https://app.hubspot.com/academy/achievements/d71s71ws/en/1/joshua-uwadone/social-media-marketing-certification-course" target="_blank"><li>Social Media Management</li></a>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Cloud DevOps Skills</h3>
+                <ul>
+                    <li>AWS (EC2, S3, CloudFront)</li>
+                    <li>Terraform (IaC)</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Automation Scripts</li>
+                </ul>
+            </div>
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <ul>
+                    <a href="https://www.credly.com/badges/4b6d791e-1f71-485b-8b82-51d09a3efd37/linked_in_profile" target="_blank"><li>AWS Certified Cloud Practitioner</li></a>
+                    <a href="https://www.credly.com/badges/b957e918-5402-4962-a2df-07458ff3ee1f/linked_in_profile" target="_blank"><li>AWS Solutions Architect Associate</li></a>
+                    <li>AWS Developer Associate (In Progress)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Marketing Campaign - Client X</h3>
+                <p>Developed a social media strategy that increased engagement by 35% in 3 months.</p>
+            </div>
+            <div class="project">
+                <h3>S3 Static Website Hosting</h3>
+                <a href="https://medium.com/@uwadon1/here-is-a-step-by-step-guide-on-how-to-deploy-static-website-hosting-with-aws-s3-and-cloudfront-ad57cd34245e" target="_blank">
+                    <p>Deployed a static website using S3 and CloudFront, enabling global content delivery with reduced latency.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/your-email" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Uwadone Joshua | Cloud DevOps Engineer & Digital Marketer</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/uwadone-joshua/" target="_blank">LinkedIn</a>
+            <a href="https://medium.com/@uwadon1" target="_blank">Medium</a>
+            <a href="https://github.com/Uwadon1" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+</body>
+</html>
